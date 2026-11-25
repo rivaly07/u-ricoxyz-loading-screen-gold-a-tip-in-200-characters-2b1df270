@@ -10,5 +10,3 @@ It sets up a scene, turns once, and leaves the last word to whoever is still at 
 ```sh
 python3 main.py && cat "${MAKEFUN_OUTPUT_DIR:-/output}/entry.txt"
 ```
-
-The program is Python 3 standard library only, makes no network calls, and writes `entry.txt` into `$MAKEFUN_OUTPUT_DIR` (default `/output`), creating the directory if needed.
